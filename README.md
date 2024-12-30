@@ -3,6 +3,7 @@ https://www.zcyphygeodesy.com/en/h-nd-121.html
 ## [Algorithm purpose]
     Given the longitude, latitude, ellipsoidal height and time of the calculation point, using IERS Earth orientation parameters (EOP) product file IERSeopc04.dat, compute the Earth’s rotation polar shift effects on the geoid or height anomaly (mm), ground gravity (μGal), gravity disturbance (μGal), ground tilt (SW, to the south and to the west, mas), vertical deflection (SW, to the south and to the west, mas), horizontal displacement (EN, to the east and to the north, mm), ground radial displacement (mm), ground normal or orthometric height (mm), radial gravity gradient (10μE) or horizontal gravity gradient (NW, to the north and to the west, 10μE).
     Improve the Earth’s rotation polar shift effect algorithm in the IERS conventions (2010) for all-element geodetic variations in whole Earth space. Here the rotation polar shift effect on potential is the sum of  the centrifugal force potential and associated geopotential.
+![](https://24192633.s21i.faiusr.com/2/ABUIABACGAAgtbbQuQYo_PqhlQYwlg44ugk.jpg)
 ## [Computation Output]
     tdn(14): the rotation polar shift effects on all-element geodetic variations.
     tdn(1:14) stores the rotation polar shift effects on 10 kinds of geodetic variations, which are the solid tidal effects on height anomaly tdn(1) (mm), ground gravity #tdn(2) (μGal), gravity disturbance tdn(3) (μGal), ground tilt #tdn(4:5) (SW, to the south and to the west, mas), vertical deflection tdn(6:7) (SW, to the south and to the west, mas), horizontal displacement #tdn(8:9) (EN, to the east and to the north, mm), ground radial displacement #tdn(10) (mm), ground normal or orthometric height #tdn(11) (mm), radial gravity gradient tdn(12 )(10μE) or horizontal gravity gradient tdn(13:14) (NW, to the north and to the west, 10μE).
@@ -36,5 +37,6 @@ https://www.zcyphygeodesy.com/en/h-nd-121.html
 ## [Algorithmic formula] ETideLoad4.5 User Reference https://www.zcyphygeodesy.com/en/
     8.6.1 Earth’s rotation polar shift effects on geodetic variations
     8.3.3 Legendre function and its first and second derivatives to ψ
-
-DOS executable test file, geophysical models and all input and output data.
+The zip compression package includes the test project in visual studio 2017 - intel fortran integrated environment, DOS executable test file, geophysical models and all input and output data.
+![](https://24192633.s21i.faiusr.com/2/ABUIABACGAAgtbbQuQYo4Ouj2gQwlg44ugk.jpg)
+![](https://24192633.s21i.faiusr.com/2/ABUIABACGAAgurbQuQYoxOnX8QIwlg44ugk.jpg)
